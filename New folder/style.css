@@ -367,9 +367,7 @@ body{
 .section5 img{
     border-radius: 20px;
 }
-.section5 img:hover{
-    animation: moveBox1 10s ease-in-out;
-}
+
 @keyframes moveBox1 {
   from {
     transform: translateX(0);
@@ -838,4 +836,5 @@ footer {
 .contact-card h1{
     font-size: 19px;
 }
+
 }
