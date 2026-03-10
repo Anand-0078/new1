@@ -8,6 +8,7 @@ menuIcon.addEventListener("click", function () {
     if (navMenu.style.display === "flex") {
         navMenu.style.display = "none";
         navMenu.style.backgroundColor = "#008DD5";
+        social.style.display = "none";
     } else {
         navMenu.style.display = "flex";
         navMenu.style.flexDirection = "column";
@@ -25,3 +26,4 @@ menuIcon.addEventListener("click", function () {
     }
 
 });
+
